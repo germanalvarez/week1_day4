@@ -24,7 +24,7 @@ A nivel de nomenclatura, existen:
   ````
 - **Funciones anónimas**: no disponen de declaración, solo de invocación. Usadas en un único contexto.
   ````javascript
-  names.forEach(function(elm) => {
+  names.forEach(function(elm){
      console.log(`¡Hola, ${elm}!`)
   })
   ````
